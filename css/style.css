@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #e4d7b7;
+}
+
+.ul_logo{
+    list-style: none;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(19, 88, 71, 0.805);
+    
+}
+
+.ul_home{
+    display: flex;
+    list-style: none;
+    gap: 62px;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.a_home{
+    text-decoration: none;
+    color: rgba(19, 88, 71, 0.805);
+    transition: 0.5s;
+}
+
+.a_home:hover{
+    color: rgb(19, 88, 71);
+    transition: 0.5s;
+    font-size: 18px;
+    font-weight: bold
+}
+
+/*NAV------------------------------------ */
+/*HEADER------------------------------------ */
+.header{
+    height: 90vh;
+    background-image: url(https://alfred.alboompro.com/resize/width/1200/height/1200/url/storage.alboompro.com/sites/63/media/fotografia_de_casamento_country_curitiba_noiva_moderna_de_bota_e_chapeu_persio_photo_art_hotel_mercure_e_chacara_krzak_mini_casamento_0266.JPG?t=1507933588);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.div_header_gradiente{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+
+    background: rgb(255,255,255);
+    background: linear-gradient(144deg, rgba(255,255,255,0.38139005602240894) 28%, rgba(19,88,71,0.4374124649859944) 67%);
+}
+.div_header{
+    color: rgb(19, 88, 71);
+    width: 70%;
+    margin: 0 auto
+}
+
+.div_header h1{
+    font-size: 70px;
+    font-weight: 400;
+    font-family: "Kanit";
+    line-height: 0.85;
+}
+
+.div_header h3{
+    font-size: 27px;
+    font-weight: 400;
+    font-family: "Kanit";
+    line-height: 0.5;
+}
+
+/*HEADER------------------------------------ */
+/*MAIN------------------------------------ */
+
+.main{
+    background-color: #e4d7b7;
+}
+
+.div_main{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.section_1{
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+    gap: 50px;
+}
+
+.paragrafo_1{
+    background-color: #c0882e59;
+    padding: 36px;
+    border-radius: 50px;
+}
+
+.section_2{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    gap: 50px;
+}
+
+.paragrafo_2{
+    background-color: #c0882e59;
+    padding: 36px;
+    border-radius: 50px;
+}
+
+.section_3{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    align-items: center;
+    gap: 50px;
+}
+
+.paragrafo_3{
+    background-color: #c0882e59;
+    padding: 36px;
+    border-radius: 50px;
+}
+
+.img_main{
+    width: 300px;
+    border-radius: 50px;
+}
+
+.div_img{
+    height: 90vh;
+    background-image: url(https://www.idoyall.com/wp-content/uploads/2015/12/JordanWED0492.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.div_main_gradiente{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0.2553396358543417) 0%, rgba(255,255,255,0.5886729691876751) 100%); 
+}
+
+.div_main_2{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.div_main_2 h1{
+    font-size: 50px;
+    font-family: "Kanit";
+    line-height: 0.85;
+    color: rgba(0, 0, 0, 0.678);
+}
+
+.div_main_2 h3{
+    font-size: 25px;
+    font-family: "Kanit";
+    color: rgba(0, 0, 0, 0.678);
+}
+
+/*MAIN------------------------------------ */
+/*FOOTER------------------------------------ */
+
+.footer{
+    display: flex; 
+    background-color:  #e4d7b7;  
+}
+
+.ul_footer{
+    list-style: none;
+    font-size: 27px;
+    padding-right: 40px;
+    color: #c0882ed3;
+    font-weight: bold;
+}
+
+.ul_contatos{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    align-items: center;
+}
+
+.a_footer{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.622);
+    font-weight: bold;
+}
+
+.a_footer:hover{
+    color: #c0882ed3;
+    transition: 0.5s;
+}
